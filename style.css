@@ -44,7 +44,7 @@ a * {
     margin: 10px;
 }
 
-h3, ol, ul {
+h3, ol, ul, li {
     margin: 0;
 }
 
@@ -52,6 +52,8 @@ h3, ol, ul {
     width: 200px;
     display: flex;
     justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
 }
 
 .other-animals h3 {
