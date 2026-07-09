@@ -75,3 +75,12 @@ h3, ol, ul, li {
     display: flex;
     justify-content: space-between;
 }
+
+span {
+    font-weight: bold;
+    transition: ease-in 0.7s;
+}
+
+span:hover {
+    color: #4444FF;
+}
