@@ -30,8 +30,7 @@ function popupStep() {
     info.forEach(async (element) => {
         let x = element.innerHTML;
         for(let i = 0; i <= x.length; i++) {
-            element.innerHTML = x;
-            element.innerHTML = element.innerHTML.slice(0, i);
+            element.innerHTML = x.slice(0, i);
             await new Promise(resolve => setTimeout(resolve, 500 / x.length));
         }
     });
